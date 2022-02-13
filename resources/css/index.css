@@ -1,0 +1,105 @@
+.logo{
+  height: 10px;
+  width: 20px;
+  background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+  border-radius:4.5px;
+}
+.navbar-title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #292B2E;
+  margin-bottom: 0;
+}
+.banner-heading{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #252B42;
+
+}
+.banner-subheading{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+color: #858585;
+}
+#link{
+ text-decoration: none
+ 
+}
+#description{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 32px;
+  
+  padding: 4px;
+}
+
+
+.carousel-img{
+  width: 100%;
+  height: 12.625rem;
+  background-size: cover;
+  overflow: hidden;
+  transition:all 0.9s;
+}
+.carousel-img:hover{
+  filter: brightness(60%);
+  transform: scale(1.2);
+  transition:all 0.9s;
+}
+.carousel-subheading{
+  padding: 4px;
+}
+
+@media only screen and (min-width: 415px){
+
+  
+  .carousel-img{
+    width: 100%;
+    height: 28.875rem;
+  }
+
+}
+.carousel-heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.006;
+  color: #292b2e;
+  margin-top: 1rem;
+}
+.carousel-subheading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #586069;
+  display: inline-block;
+  margin-right: 0.5rem;
+  
+}
+
+.carousel-description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.013rem;
+  color: #292b2e;
+}
+.carousel-dot {
+  display: inline-block;
+  font-size: 0.7rem;
+}
